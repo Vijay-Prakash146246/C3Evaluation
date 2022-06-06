@@ -65,12 +65,13 @@ class Demo
 	}
 }
 public class Main {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Enter 1st 3 letter of name of month in capital");
 		Scanner s = new Scanner(System.in);
 		 String mon=s.next();
+		 //enum Month m = mon;
 		 System.out.println(mon);
 		
 
